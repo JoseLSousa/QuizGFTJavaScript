@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Qual é o operador utilizado para atribuição de valor a uma variável em JavaScript?",
+        "answers": [
+            { "text": "==", "correct": false },
+            { "text": "=", "correct": true },
+            { "text": "===", "correct": false },
+            { "text": "!", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual é a função utilizada para exibir mensagens no console em JavaScript?",
+        "answers": [
+            { "text": "console.log()", "correct": true },
+            { "text": "print()", "correct": false },
+            { "text": "echo()", "correct": false },
+            { "text": "log()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método é utilizado para converter uma string em um número inteiro?",
+        "answers": [
+            { "text": "parseInt()", "correct": true },
+            { "text": "Number()", "correct": false },
+            { "text": "toInt()", "correct": false },
+            { "text": "parseFloat()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual palavra-chave é utilizada para definir uma constante em JavaScript?",
+        "answers": [
+            { "text": "const", "correct": true },
+            { "text": "let", "correct": false },
+            { "text": "var", "correct": false },
+            { "text": "constant", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual das seguintes opções é uma estrutura de loop em JavaScript?",
+        "answers": [
+            { "text": "foreach", "correct": false },
+            { "text": "while", "correct": true },
+            { "text": "repeat", "correct": false },
+            { "text": "loop", "correct": false }
+        ]
+    },
+    {
+        "question": "Como se chama o processo de verificar o tipo de dado em uma variável?",
+        "answers": [
+            { "text": "dataType()", "correct": false },
+            { "text": "typeof", "correct": true },
+            { "text": "checkType()", "correct": false },
+            { "text": "getType()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual é o operador lógico que representa a negação em JavaScript?",
+        "answers": [
+            { "text": "&&", "correct": false },
+            { "text": "||", "correct": false },
+            { "text": "!", "correct": true },
+            { "text": "^^", "correct": false }
+        ]
+    },
+    {
+        "question": "Como se chama uma função sem nome atribuída a uma variável?",
+        "answers": [
+            { "text": "Função nomeada", "correct": false },
+            { "text": "Função anônima", "correct": true },
+            { "text": "Função global", "correct": false },
+            { "text": "Função padrão", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método é usado para adicionar um elemento ao final de um array?",
+        "answers": [
+            { "text": "push()", "correct": true },
+            { "text": "pop()", "correct": false },
+            { "text": "unshift()", "correct": false },
+            { "text": "concat()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método é utilizado para remover o último elemento de um array?",
+        "answers": [
+            { "text": "remove()", "correct": false },
+            { "text": "delete()", "correct": false },
+            { "text": "pop()", "correct": true },
+            { "text": "shift()", "correct": false }
+        ]
+    },
+    {
+        "question": "Como se cria um objeto vazio em JavaScript?",
+        "answers": [
+            { "text": "var obj = {}", "correct": true },
+            { "text": "var obj = []", "correct": false },
+            { "text": "var obj = new Object[]", "correct": false },
+            { "text": "var obj = ()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual palavra-chave é usada para sair de um loop antecipadamente?",
+        "answers": [
+            { "text": "exit", "correct": false },
+            { "text": "break", "correct": true },
+            { "text": "stop", "correct": false },
+            { "text": "return", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método converte um array em uma string?",
+        "answers": [
+            { "text": "toString()", "correct": true },
+            { "text": "join()", "correct": false },
+            { "text": "stringify()", "correct": false },
+            { "text": "concat()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual dos seguintes operadores verifica se dois valores são estritamente iguais?",
+        "answers": [
+            { "text": "==", "correct": false },
+            { "text": "=", "correct": false },
+            { "text": "===", "correct": true },
+            { "text": "!==", "correct": false }
+        ]
+    },
+    {
+        "question": "Como se cria uma função em JavaScript?",
+        "answers": [
+            { "text": "function myFunction() {}", "correct": true },
+            { "text": "def myFunction() {}", "correct": false },
+            { "text": "func myFunction() {}", "correct": false },
+            { "text": "create myFunction() {}", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método é usado para encontrar o índice de um elemento em um array?",
+        "answers": [
+            { "text": "findIndex()", "correct": false },
+            { "text": "indexOf()", "correct": true },
+            { "text": "search()", "correct": false },
+            { "text": "position()", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual é o resultado de '2' + 2 em JavaScript?",
+        "answers": [
+            { "text": "22", "correct": true },
+            { "text": "4", "correct": false },
+            { "text": "NaN", "correct": false },
+            { "text": "undefined", "correct": false }
+        ]
+    },
+    {
+        "question": "Como se declara uma variável globalmente acessível?",
+        "answers": [
+            { "text": "const", "correct": false },
+            { "text": "var", "correct": true },
+            { "text": "let", "correct": false },
+            { "text": "global", "correct": false }
+        ]
+    },
+    {
+        "question": "Como se chama uma função que chama a si mesma?",
+        "answers": [
+            { "text": "Função anônima", "correct": false },
+            { "text": "Função recursiva", "correct": true },
+            { "text": "Função lambda", "correct": false },
+            { "text": "Função de callback", "correct": false }
+        ]
+    },
+    {
+        "question": "Qual método converte uma string para letras maiúsculas?",
+        "answers": [
+            { "text": "toUpperCase()", "correct": true },
+            { "text": "toUpper()", "correct": false },
+            { "text": "upperCase()", "correct": false },
+            { "text": "capitalize()", "correct": false }
+        ]
+    }
+]
