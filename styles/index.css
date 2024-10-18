@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+
+* {
+  font-family: 'Strait';
+}
+body{
+    background-color: #213E7F !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.answerCorrect{
+    background-color: green;
+}
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important
+}
+
+footer {
+    /* background-color: #213E80; */
+    color: #FFF;
+    /* border: 0 0 0 5px solid #183069; */
+}
+
+main {
+    background-color: #213E80;
+    color: #FFF;
+    border: 5px solid #183069;
+    font-family: 'Strait';
+}
+.answerButton{
+    border: 1px solid #183069 !important;
+
+}
+.answerButton:hover{
+    background-color: #183069 !important;
+}
+.btnStart {
+    background-color: #b02a87 !important;
+    border: 3px solid #982174 !important;
+    color: white !important
+}
+
+.btnStart:hover {
+    background-color: #5f244d !important;
+    border: 3px solid #571d46 !important;
+}
+
+#imgBootcamp {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-15px);
+    }
+
+    60% {
+        transform: translateY(-7.5px);
+    }
+}
