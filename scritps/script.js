@@ -67,7 +67,7 @@ function toggleItens() {
 }
 
 function displayQuestion(questionIndex) {
-    while (questionIndex != questions.length) {
+    while (questionIndex < questions.length) {
         progressContainer.innerHTML = `<div class=" progress col-10" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="${questions.length}">
                                     <div class=" progress-bar" style="width: ${(((questionIndex + 1) / questions.length)) * 100}%"></div></div>
                                     <div class=" questionNumber col-2 fs-5">${questionIndex + 1}/${questions.length}</div>`;
